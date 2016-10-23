@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HealthHub</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="Healthcare_Website.css" media="screen" title="no title">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" title="no title">
+  </head>
+  <body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid nav-color" id="nav-text-color">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="" style="color: white;">HealthHub</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      </ul>
+      <ul class="nav navbar-nav navbar-right" id="link-hover">
+        <li><a href="#whatwedo" style="color: white;">What We Do</a></li>
+        <li><a href="#" style="color: white;">Partners</a></li>
+        <li><a href="#" style="color: white;">Contact</a></li>
+        <!-- <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li> -->
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<section class="first-block">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="hero-text">
+        <p class="intro-text">
+          HealthHub <i class="fa fa-hospital-o" aria-hidden="true"></i>
+        </p>
+        <hr class="style-two">
+        <p class="subheader">
+          Your medical information available to you.
+          <br>
+          All the time.
+        </p>
+        <a href="OverViewWeb.html"><button type="button" class="btn btn-primary btn-lg" id="demo">Click Me!</button></a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="second-block hero-text" name="whatwedo">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="section-2-header">What We Do.</h1>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <h2 class="center">Accessibility</h2>
+          <h4>No more phone calls. No more trips to the doctor's office. Just access to your own medical information easily. </h4>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <h2 class="center strike">Paperwork</h2>
+          <h4>Since our platform is digital and updated in real time,
+            you never have to fill out paperwork again. We give back that half hour wasted filling out paperwork in your doctor's office.
+            You're welcome.
+          </h4>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <h2 class="center">Collaboration</h2>
+          <h4>
+              Healthcare professionals update your medical information after every visit.
+              You get notified of any changes
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="hero-text">Partners <i class="fa fa-users" aria-hidden="true"></i></h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="partners">
+      <div class="col-md-4">
+        <img src="imageedit_2_9202503971.gif" alt="" />
+      </div>
+      <div class="col-md-4">
+        <img src="aetna-logo.jpg" alt="" />
+      </div>
+      <div class="col-md-4">
+        <img src="mckesson-logo.jpg" alt="" />
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="contact nav-color">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="hero-text">Interested?</h1>
+      <h4 class="center hero-text">Leave your info and we'll get in touch with you soon!</h4>
+    </div>
+<div class="center hero-text">
+    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+    <div class="row">
+        <label for="name"></label>
+        <input style="color: black;" id="name" class="input" name="name" type="text" value="" size="30" placeholder="Name" />
+        <br/>
+        <br>
+        </div>
+    <div class="row">
+        <label for="email"></label>
+        <input style="color: black;" id="email" class="input" name="email" type="text" value="" size="30" placeholder="Email" /><br />
+        </div>
+    <a href="#"><button type="button" class="btn btn-primary " id="form-submit">Submit</button></a>
+    </form>
+</div>
+</section>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+h3 {
+  margin-bottom: 7%;
+}
+h4 {
+  margin-top: 3%;
+margin-bottom: 3%;
+}
+#map {
+  height: 80%;
+  width: 80%;
+}
+#demo {
+  background-color: #EB4C36;
+  border: none;
+}
+#form-submit {
+  background-color: #092D3D;
+  margin-top: 1%;
+  border: none;
+}
+.partners{
+  height: 50%;
+  width:70%;
+  margin: auto;
+}
+.partners img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-bottom: 20%;
+  margin-top: 20%;
+}
+.strike {
+  text-decoration: line-through;
+}
+.nav-color {
+  background-color: #EB4C36;
+  color: white;
+}
+.hero-text {
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+}
+.intro-text {
+  font-size: 4em;
+}
+.subheader {
+  font-size: 2.5em;
+}
+.first-block {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.second-block {
+  background-color: #092D3D;
+}
+.section-2-header {
+  color: white;
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 0;
+}
+.card {
+  color: white;
+  padding: 4%;
+}
+.center {
+  text-align: center;
+}
+
+.explanation {
+  color: white;
+  font-size: 1.3em;
+}
+.navbar-brand {
+  font-variant: small-caps;
+  font-size: 1.5em;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    width: 50%;
+}
+hr.style-three {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    width: 50%;
+}
+nav {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}

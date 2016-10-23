@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HealthHub</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="Prescription_Page.css" media="screen" title="no title">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  </head>
+  <body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid nav-color" id="nav-text-color">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html" style="color: white;">HealthHub</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      </ul>
+      <ul class="nav navbar-nav navbar-right" id="link-hover">
+        <li><a href="OverViewWeb.html" style="color: white;">Overview</a></li>
+        <li><a href="#" style="color: white;">Prescriptions</a></li>
+        <li><a href="#" style="color: white;">Medical History</a></li>
+        <li><a href="#" style="color: white;">Visualization</a></li>
+        <!-- <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li> -->
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<section class="first-block">
+  <div class="row"  >
+    <div class="col-md-12">
+      <div class="hero-text">
+    	  <div class="col-md-4">
+            <img src="griffon.jpg" alt="" id="peter" />
+        </div>
+        <div class="col-md-8">
+          <h1>Current Prescriptions</h1>
+          <hr class="style-two">
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Dosage (mg)</th>
+                <th>Refill Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Xanax</strong></td>
+                <td>15mg</td>
+                <td>10/22/16</td>
+              </tr>
+              <tr>
+                <td><strong>Adderall</strong></td>
+                <td>30mg</td>
+                <td>10/24/16</td>
+              </tr>
+              <tr>
+                <td><strong>Vyvanse</strong></td>
+                <td>15mg</td>
+                <td>10/26/16</td>
+              </tr>
+              <tr>
+                <td><strong>Quaalude</strong></td>
+                <td>10mg</td>
+                <td>10/30/16</td>
+              </tr>
+              <tr>
+                <td><strong>Vicodin</strong></td>
+                <td>10mg</td>
+                <td>11/05/16</td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Past Prescriptions</h1>
+            <hr class="style-two">
+            <table id="pastPres">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Dosage (mg)</th>
+                  <th>Issue Date</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Oxycodone</strong></td>
+                  <td>10mg</td>
+                  <td>9/4/15</td>
+                </tr>
+                <tr>
+                  <td><strong>Oxymorphone</strong></td>
+                  <td>10mg</td>
+                  <td>8/12/15</td>
+                </tr>
+                <tr>
+                  <td><strong>Propoxyphene</strong></td>
+                  <td>15mg</td>
+                  <td>8/10/15</td>
+                </tr>
+                <tr>
+                  <td><strong>Hydromorphone</strong></td>
+                  <td>20mg</td>
+                  <td>7/28/15</td>
+                </tr>
+                <tr>
+                  <td><strong>Meperidine</strong></td>
+                  <td>10mg</td>
+                  <td>7/23/15</td>
+                </tr>
+                <tr>
+                  <td><strong>Diphenoxylate</strong></td>
+                  <td>12mg</td>
+                  <td>6/30/15</td>
+                </tr>
+                <tr>
+                  <td><strong>Diazepam </strong></td>
+                  <td>10mg</td>
+                  <td>6/15/15</td>
+                </tr>
+                <tr>
+                  <td><strong>Alprazolam</strong></td>
+                  <td>10mg</td>
+                  <td>5/20/15</td>
+                </tr>
+                <tr>
+                  <td><strong>Dextroamphetamine</strong></td>
+                  <td>10mg</td>
+                  <td>3/2/14</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" charset="utf-8"></script>
+  </body>
+</html>
